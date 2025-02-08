@@ -20,5 +20,11 @@ namespace CheckerApp
         {
             InitializeComponent();
         }
+
+        private void CloseApp(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
     }
 }
